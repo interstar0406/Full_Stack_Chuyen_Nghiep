@@ -10,12 +10,12 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/fullstackvietnam/project.git"
+		"url": "git+https://github.com/fullstackvietnam/myweb.git"
 	},
 	"author": "FullStack VietNam",
 	"license": "ISC",
 	"bugs": {
-		"url": "https://github.com/fullstackvietnam/project/issues"
+		"url": "https://github.com/fullstackvietnam/myweb/issues"
 	},
 	"homepage": "https://fullstackvietnam.com",
 	"dependencies": {

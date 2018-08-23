@@ -6318,88 +6318,6 @@ html, body {
   height: 100%;
   width: 100%; }
 
-.btn-large {
-  padding-top: 1rem;
-  padding-right: 5rem;
-  padding-bottom: 1.3rem;
-  padding-left: 5rem;
-  border-radius: 4px;
-  border: 0;
-  text-transform: uppercase;
-  color: #ffffff; }
-  .btn-large:hover, .btn-large:active {
-    color: #ffffff; }
-  .btn-large.btn-cam {
-    background: #e28327;
-    -webkit-box-shadow: inset 0 -4px 0px 0px #bd6a19;
-    -khtml-box-shadow: inset 0 -4px 0px 0px #bd6a19;
-    -moz-box-shadow: inset 0 -4px 0px 0px #bd6a19;
-    -ms-box-shadow: inset 0 -4px 0px 0px #bd6a19;
-    -o-box-shadow: inset 0 -4px 0px 0px #bd6a19;
-    box-shadow: inset 0 -4px 0px 0px #bd6a19; }
-    .btn-large.btn-cam:hover, .btn-large.btn-cam:active {
-      background: #dc7b1e;
-      -webkit-box-shadow: inset 0 -4px 0px 0px #a65d16;
-      -khtml-box-shadow: inset 0 -4px 0px 0px #a65d16;
-      -moz-box-shadow: inset 0 -4px 0px 0px #a65d16;
-      -ms-box-shadow: inset 0 -4px 0px 0px #a65d16;
-      -o-box-shadow: inset 0 -4px 0px 0px #a65d16;
-      box-shadow: inset 0 -4px 0px 0px #a65d16; }
-
-.title-page h2 {
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  position: relative;
-  margin-bottom: 2rem; }
-  .title-page h2:after {
-    position: absolute;
-    bottom: -0.75rem;
-    left: 50%;
-    display: block;
-    height: 3px;
-    width: 60px;
-    content: '';
-    background: #000;
-    -webkit-transform: translateX(-50%);
-    -khtml-transform: translateX(-50%);
-    -moz-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    -o-transform: translateX(-50%);
-    transform: translateX(-50%); }
-
-.title-page p {
-  margin-top: 0;
-  margin-right: auto;
-  margin-bottom: 0;
-  margin-left: auto;
-  max-width: 80%;
-  font-size: 1.2rem; }
-
-@media (min-width: 768px) {
-  .title-page p {
-    max-width: 50%; } }
-
-.title-page.title-xanh h2:after {
-  background: rgba(0, 0, 0, 0.3); }
-
-.title-page.title-xanh p {
-  filter: alpha(opacity=80);
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
-  -webkit-opacity: 0.8;
-  -khtml-opacity: 0.8;
-  -moz-opacity: 0.8;
-  -ms-opacity: 0.8;
-  -o-opacity: 0.8;
-  opacity: 0.8; }
-
-.title-page.title-xam h2 {
-  color: #266186; }
-  .title-page.title-xam h2:after {
-    background: #bedbed; }
-
-.title-page.title-xam p {
-  color: #317dae; }
-
 @media print {
   .container {
     width: auto; } }
@@ -6409,88 +6327,69 @@ header .navbar {
   padding-left: 0; }
 
 header .navbar-brand img {
-  max-height: 1rem; }
+  max-height: 2rem; }
 
 @media (min-width: 768px) {
   header .navbar-brand img {
-    max-height: 2rem; } }
+    max-height: 3rem; } }
 
 footer img {
   max-width: 200px; }
 
-body {
-  font-family: Roboto; }
-
-.home-news {
-  min-height: 500px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  background: #ffffff;
-  color: #black;
-  padding-top: 5rem;
-  padding-right: 0;
-  padding-bottom: 3rem;
-  padding-left: 0; }
+.home-slider .owl-carousel .item {
+  position: relative; }
+  .home-slider .owl-carousel .item .title {
+    padding-top: 2rem;
+    padding-right: 0;
+    padding-bottom: 2rem;
+    padding-left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center; }
   @media (min-width: 768px) {
-    .home-news {
-      padding-top: 5rem;
-      padding-right: 0;
-      padding-bottom: 5rem;
-      padding-left: 0; } }
-  .home-news .item a {
-    text-decoration: none; }
-    .home-news .item a figure .blockimg {
-      border-radius: 10px;
-      overflow: hidden;
-      position: relative; }
-      .home-news .item a figure .blockimg:before {
-        width: 100%;
-        height: 100%;
-        display: block;
-        position: absolute;
-        content: '';
-        top: 100%;
-        background: rgba(0, 0, 0, 0.52);
-        transition: .5s all ease-in-out;
-        opacity: 0; }
-      .home-news .item a figure .blockimg i {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translateX(-50%) translateY(-50%);
-        color: #ffffff;
-        font-size: 4rem;
-        transition: .5s all ease-in-out;
-        opacity: 0; }
-      .home-news .item a figure .blockimg img {
-        width: 100%; }
-    .home-news .item a figure figcaption h3 {
-      font-size: 1rem;
-      font-weight: 500;
-      line-height: 1.2rem;
-      margin-top: .75rem;
-      margin-bottom: 0;
-      color: #000; }
-    .home-news .item a figure figcaption time {
-      color: #b3b3b3;
-      font-size: .85rem; }
-    .home-news .item a figure figcaption p {
-      color: #a6a6a6;
-      line-height: 1.2rem;
-      font-size: .9rem;
-      height: 3.6rem;
-      overflow: hidden;
-      margin-top: .25rem; }
-  .home-news .item:hover figure .blockimg:before, .home-news .item:active figure .blockimg:before {
-    opacity: 1;
-    top: 0; }
-  .home-news .item:hover figure .blockimg i, .home-news .item:active figure .blockimg i {
-    opacity: 1; }
-  .home-news .item:hover figure figcaption h3, .home-news .item:active figure figcaption h3 {
-    color: #8e44ad; }
-  .home-news .item:hover figure figcaption p, .home-news .item:active figure figcaption p {
-    color: #3498db; }
+    .home-slider .owl-carousel .item .title {
+      position: absolute;
+      top: 0;
+      left: 0;
+      color: #ffffff;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4); }
+      .home-slider .owl-carousel .item .title h2 {
+        font-size: 3rem; }
+      .home-slider .owl-carousel .item .title p {
+        font-size: 1.5rem;
+        line-height: 2rem; } }
+
+.home-slider .owl-carousel .owl-dots {
+  margin-bottom: 2rem; }
+
+.home-news .item figure .blockimg {
+  border-radius: 10px;
+  overflow: hidden; }
+  .home-news .item figure .blockimg img {
+    width: 100%; }
+
+.home-news .item figure figcaption {
+  margin-top: 1rem; }
+  .home-news .item figure figcaption h3 {
+    font-size: 1.1rem;
+    margin-bottom: 0; }
+  .home-news .item figure figcaption time {
+    font-size: 0.85rem;
+    color: #b3b3b3; }
+  .home-news .item figure figcaption p {
+    margin-top: .5rem;
+    color: gray; }
+
+.home-clients .owl-carousel .item {
+  padding: 0.5rem; }
+
+.home-clients .owl-carousel .owl-nav {
+  margin-bottom: 2rem; }
+  .home-clients .owl-carousel .owl-nav button i {
+    display: block;
+    width: 2rem;
+    height: 2rem;
+    line-height: 2rem; }
 
 /*# sourceMappingURL=main.css.map */
